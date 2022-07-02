@@ -1,4 +1,3 @@
-package com.futurecollars.oop;
 
     public class Main {
         public static void main(String[] args) {
@@ -9,4 +8,3 @@ package com.futurecollars.oop;
             System.out.println("Movie year production: " + movie.getYearOfProcudtion());
         }
     }
-
