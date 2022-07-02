@@ -1,4 +1,4 @@
-package com.futurecollars;
+package com.futurecollars.oop;
 
 public class Movie {
     private String movieTittle;
