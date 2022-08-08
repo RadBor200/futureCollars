@@ -52,14 +52,19 @@ class daysOfWeekTest {
 
     @Test
     void shouldReturnCorrectDayOfTheWeekDependsOnGivenNumber6() {
-
+    
         int weekend = 6;
-        int weekend2 = 7;
-
-        String weekendExpected = daysOfWeek.getDayOfWeek(6);
-        Assertions.assertEquals(weekendExpected, "Weekend");
-
-        String weekend2Expected = daysOfWeek.getDayOfWeek(7);
-        Assertions.assertEquals(weekend2Expected, "Weekend");
+       
+    String weekendExpected = daysOfWeek.getDayOfWeek(6);
+    Assertions.assertEquals(weekendExpected, "Weekend");
     }
+        
+   @Test
+   void shouldReturnCorrectDayOfTheWeekDependsOnGivenNumber7() {
+   
+       int weekend2 = 7;
+       
+   String weekend2Expected = daysOfWeek.getDayOfWeek(7);
+   Assertions.assertEquals(weekend2Expected, "Weekend");
+   }
 }
