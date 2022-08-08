@@ -1,4 +1,4 @@
-package PACKAGE_NAME;public class Calculator {
+public class Calculator {
   
    public static void main(String[] args) {
 
@@ -8,20 +8,20 @@ package PACKAGE_NAME;public class Calculator {
         System.out.println(divide(100, 2));
     }
 
-    public static int add(int a, int b) {
+    public int add(int a, int b) {
 
         return a + b;
     }
 
-    public static int subtract(int a, int b) {
+    public int subtract(int a, int b) {
         return a - b;
     }
 
-    public static int multiply(int a, int b) {
+    public int multiply(int a, int b) {
         return a * b;
     }
 
-    public static int divide(int a, int b) {
+    public int divide(int a, int b) {
         return a / b;
     }
 }
