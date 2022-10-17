@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5afe4de7-8f3a-4353-966f-00b75f6f72b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson2/Age.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson2/AgeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson2/DaysOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson2/DaysOfWeekTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/futurecollars/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson2/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/futurecollars/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson2/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_2-mvn_junit_task3_Calculator" />
+        <entry key="$PROJECT_DIR$" value="Lesson_2_task_4-_Age" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +77,7 @@
       <recent name="com.futurecollars" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Age">
+  <component name="RunManager" selected="JUnit.DaysOfWeekTest">
     <configuration name="Age" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.Age" />
       <module name="Maven" />
@@ -107,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DaysOfWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.DaysOfWeek" />
+      <module name="Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Maven" />
       <extension name="coverage">
@@ -122,8 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DaysOfWeekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.DaysOfWeekTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DaysOfWeekTest" />
+        <item itemvalue="Application.DaysOfWeek" />
         <item itemvalue="Application.Age" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="JUnit.CalculatorTest" />
