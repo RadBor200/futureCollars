@@ -1,4 +1,4 @@
-package com.futurecollars.lesson4;
+package com.futurecollars.lesson4.task1;
 
 public class MainMessage {
   public static void main(String[] args) {

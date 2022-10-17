@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5afe4de7-8f3a-4353-966f-00b75f6f72b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/ConsoleMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/MainMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/WindowMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task2/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task2/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson4/task2/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson4/task2/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson4/task2/SquareTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/ConsoleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task1/ConsoleMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/MainMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task1/MainMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task1/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/WindowMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task1/WindowMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +27,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_3_task_5_triangle" />
+        <entry key="$PROJECT_DIR$" value="Lesson_4_task1_message" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,6 +83,7 @@
       <recent name="com.futurecollars.lesson2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.futurecollars.lesson4.task2" />
       <recent name="com.futurecollars.lesson3" />
       <recent name="com.futurecollars.lesson2" />
       <recent name="com.futurecollars" />
@@ -82,11 +91,11 @@
   </component>
   <component name="RunManager" selected="Application.MainMessage">
     <configuration name="MainMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson4.MainMessage" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson4.task1.MainMessage" />
       <module name="Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson4.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson4.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,6 +158,19 @@
       <option name="PACKAGE_NAME" value="com.futurecollars.lesson3" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson3.RectangularTriangleTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Maven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Maven" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
