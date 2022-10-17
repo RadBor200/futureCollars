@@ -1,4 +1,4 @@
-package com.futurecollars;
+package com.futurecollars.lesson2;
 
 public class Calculator {
 
