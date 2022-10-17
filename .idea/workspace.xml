@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5afe4de7-8f3a-4353-966f-00b75f6f72b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson2/DaysOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson2/DaysOfWeekTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson3/MinutesAndSeconds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson3/MinutesAndSecondsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_2_task_4-_Age" />
+        <entry key="$PROJECT_DIR$" value="Lesson_2_task_6-days_of_week" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,37 +73,12 @@
       <recent name="com.futurecollars.lesson2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.futurecollars.lesson3" />
       <recent name="com.futurecollars.lesson2" />
       <recent name="com.futurecollars" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DaysOfWeekTest">
-    <configuration name="Age" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.Age" />
-      <module name="Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.Calculator" />
-      <module name="Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MinutesAndSecondsTest">
     <configuration name="DaysOfWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.DaysOfWeek" />
       <module name="Maven" />
@@ -117,17 +92,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinutesAndSeconds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson3.MinutesAndSeconds" />
       <module name="Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson2.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson2" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,13 +120,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinutesAndSecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson3" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson3.MinutesAndSecondsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinutesAndSecondsTest.shouldReturn60SecondsFor1Minute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson3" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson3.MinutesAndSecondsTest" />
+      <option name="METHOD_NAME" value="shouldReturn60SecondsFor1Minute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinutesAndSecondsTest" />
+        <item itemvalue="JUnit.MinutesAndSecondsTest.shouldReturn60SecondsFor1Minute" />
+        <item itemvalue="Application.MinutesAndSeconds" />
         <item itemvalue="JUnit.DaysOfWeekTest" />
         <item itemvalue="Application.DaysOfWeek" />
-        <item itemvalue="Application.Age" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
