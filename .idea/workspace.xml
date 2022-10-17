@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5afe4de7-8f3a-4353-966f-00b75f6f72b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson2/Age.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson2/AgeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson2/Numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/futurecollars/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson2/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/futurecollars/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson2/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +114,19 @@
       <option name="PACKAGE_NAME" value="com.futurecollars.lesson2" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson2.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Maven" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Maven" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
