@@ -1,0 +1,9 @@
+package com.futurecollars.lesson4;
+
+public class ConsoleMessage extends Message {
+
+  @Override
+  public String getMessage() {
+    return "This is class Console Message.";
+  }
+}
