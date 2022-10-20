@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afe4de7-8f3a-4353-966f-00b75f6f72b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task4/LowerCaseFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task4/TextFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/futurecollars/lesson4/task4/UpperCaseFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson4/task4/LowerCaseFormatterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/futurecollars/lesson4/task4/UpperCaseFormatterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Maven.iml" afterDir="false" />
-    </list>
+    <list default="true" id="5afe4de7-8f3a-4353-966f-00b75f6f72b5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
