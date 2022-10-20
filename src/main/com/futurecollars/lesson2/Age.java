@@ -1,8 +1,6 @@
 package com.futurecollars.lesson2;
 
 public class Age {
-  public static void main(String[] args) {
-  }
 
   public static String ageVerification(int age) {
     if (age < 18) {
