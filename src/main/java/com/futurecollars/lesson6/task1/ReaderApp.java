@@ -1,4 +1,4 @@
-package com.futurecollars.task1;
+package com.futurecollars.lesson6.task1;
 
 import java.io.IOException;
 import java.nio.file.Files;
