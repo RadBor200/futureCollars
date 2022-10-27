@@ -1,4 +1,4 @@
-package com.futurecollars.task2;
+package com.futurecollars.lesson7.task2;
 
 import com.futurecollars.lesson7.task2.TextChanger;
 import org.junit.jupiter.api.Assertions;
