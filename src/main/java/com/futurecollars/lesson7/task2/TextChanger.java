@@ -1,4 +1,4 @@
-package com.futurecollars.task2;
+package com.futurecollars.lesson7.task2;
 
 public class TextChanger {
 
