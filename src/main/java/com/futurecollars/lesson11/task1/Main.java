@@ -1,4 +1,4 @@
-package com.futurecollars.task1;
+package com.futurecollars.lesson11.task1;
 
 
 public class Main {
