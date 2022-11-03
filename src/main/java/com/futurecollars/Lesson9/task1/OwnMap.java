@@ -1,4 +1,4 @@
-package com.futurecollars.Lesson9;
+package com.futurecollars.Lesson9.task1;
 
 public interface OwnMap<K, V> {
 

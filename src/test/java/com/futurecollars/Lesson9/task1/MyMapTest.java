@@ -1,5 +1,6 @@
-package com.futurecollars.Lesson9;
+package com.futurecollars.Lesson9.task1;
 
+import com.futurecollars.Lesson9.task1.MyMap;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

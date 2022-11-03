@@ -1,4 +1,4 @@
-package com.futurecollars.Lesson9;
+package com.futurecollars.Lesson9.task1;
 
 import java.util.Iterator;
 import java.util.LinkedList;
