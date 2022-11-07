@@ -32,11 +32,7 @@ public class LinkedList <T> {
 
     if (isEmpty()) {
       head = tail = newNode;
-      changeHead();
-      changeTail();
     } else {
-      tail.next = newNode;
-      newNode.prev = tail;
       tail = newNode;
       changeTail();
     }
