@@ -2,8 +2,8 @@ package com.futurecollars.lesson4.task9;
 
 public class Triangle {
 
-  double width;
-  double height;
+  private double width;
+  private double height;
 
   public Triangle(double width, double height) {
     this.width = width;
