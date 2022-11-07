@@ -8,26 +8,22 @@ import org.junit.jupiter.params.provider.ValueSource;
 class NumberToolTest {
 
   @ParameterizedTest
-  @ValueSource(ints = {4, 12, 32, -52, 96, 0})
-  void shouldVerifyNumberIsEven(int input) {
-    //given, when
+  @ValueSource(ints = {5, 50, -12})
+  void shouldNumberIsEven(int input) {
+
     boolean isEven = NumberTool.isEven(input);
-    //then
+
     Assertions.assertTrue(isEven);
   }
 
   @ParameterizedTest
-  @CsvSource(value = {"211 : 4", "13 : 4", "72 : 9", "-825 : 15"}, delimiter = ':')
-  void shouldVerifySumOfDigits(String input, String expected) {
+  @CsvSource(value = {"432 : 9", "311 : 21", "123 : 32"}, delimiter = ':')
+  void shouldSumNumbers(String input, String expected) {
 
-    //given
-    int actualValue = Integer.parseInt(input);
-    int expectedValue = Integer.parseInt(expected);
+    int valueActual = Integer.parseInt(input);
+    int valueExpected = Integer.parseInt(expected);
 
-    //when
-    actualValue = NumberTool.calculateSumOfDigits(actualValue);
-
-    //then
-    Assertions.assertEquals(expectedValue, actualValue);
+    valueActual = NumberTool.sumNumbers(valueActual);
+    Assertions.assertEquals(valueExpected, valueActual);
   }
 }

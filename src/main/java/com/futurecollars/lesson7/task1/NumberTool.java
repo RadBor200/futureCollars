@@ -1,21 +1,22 @@
 package com.futurecollars.lesson7.task1;
 
 public class NumberTool {
-  public static boolean isEven(int number) {
-    return number % 2 == 0;
+
+  public static boolean isEven(int num) {
+    return num % 2 == 0;
   }
 
-  public static int calculateSumOfDigits(int number) {
-    int sum = 0;
+  public static int sumNumbers(int num) {
+    int result = 0;
 
-    if (number < 0) {
-      number = -number;
+    if (num < 0) {
+      num = -num;
     }
+    while (num > 0) {
 
-    while (number > 0) {
-      sum += number % 10;
-      number /= 10;
+      result += num % 10;
+      num /= 10;
     }
-    return sum;
+    return result;
   }
 }
