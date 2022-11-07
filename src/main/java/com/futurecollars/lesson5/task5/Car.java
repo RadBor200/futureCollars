@@ -1,36 +1,56 @@
 package com.futurecollars.lesson5.task5;
 
 public class Car implements Vehicle {
+  Engine engine;
 
-  private boolean engineStarted;
-
-  public void setEngineStarted(boolean engineStarted) {
-    this.engineStarted = engineStarted;
-  }
-
-  public boolean isEngineStarted() {
-    return engineStarted;
-  }
-
-  public void startEngine() {
-    if (!engineStarted) {
-      engineStarted = true;
-    }
-  }
-
-  public void stopEngine() {
-    if (engineStarted) {
-      engineStarted = false;
-    }
+  public Car(Engine engine) {
+    this.engine = engine;
   }
 
   @Override
-  public void turnLeft() {
-    System.out.println("Turn on the left turn signal");
+  public void start() {
+    engine.startEngine();
   }
 
   @Override
-  public void turnRight() {
-    System.out.println("Turn on the right turn signal");
+  public void stop() {
+    engine.stopEngine();
   }
+
+  @Override
+  public boolean isStarted() {
+    return engine.isEngineStarted();
+  }
+
+  @Override
+  public void setStarted(boolean isStarted) {
+    engine.setEngineStarted(isStarted);
+  }
+
+
+  private static class Engine {
+    private boolean engineStarted;
+
+    protected void startEngine() {
+      if (!engineStarted) {
+        engineStarted = true;
+      }
+    }
+
+    protected void stopEngine() {
+      if (engineStarted) {
+        engineStarted = false;
+      }
+    }
+
+    public boolean isEngineStarted() {
+      return engineStarted;
+    }
+
+    public void setEngineStarted(boolean engineStarted) {
+      this.engineStarted = engineStarted;
+    }
+
+  }
+
 }
