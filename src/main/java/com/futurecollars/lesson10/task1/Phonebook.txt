@@ -1,0 +1,4 @@
+Jan Kowalski;Ogrody 23/32 Kielce;11111111
+Janina Kowalska;Centralna 10 Gdansk;99999999
+Adam Kowalski;Warszawska 9/99 Warszawa;123456789
+Anna Kowalska;Jana Pawła II 91/19 Sosnowiec;987654321
