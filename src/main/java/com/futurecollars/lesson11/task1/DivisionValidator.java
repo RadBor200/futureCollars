@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class NumbersDivisibleBy3 {
+public class DivisionValidator {
 
   public static List<Integer> numbers (int from, int to) {
     return IntStream.range(from, to)
