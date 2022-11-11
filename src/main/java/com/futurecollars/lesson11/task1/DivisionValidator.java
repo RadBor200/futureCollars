@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 
 public class DivisionValidator {
 
-  public static List<Integer> divideByThree (int from, int to) {
+  public static List<Integer> getNumbersDivisibleByThree (int from, int to) {
     return IntStream.range(from, to)
         .filter(number -> number % 3 == 0)
         .boxed()
