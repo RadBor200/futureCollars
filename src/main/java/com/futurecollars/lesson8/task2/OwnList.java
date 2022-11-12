@@ -11,5 +11,5 @@ public interface OwnList {
 
   void add(int index, Integer element);
 
-  void remove(int index);
+  Integer remove(int index);
 }
