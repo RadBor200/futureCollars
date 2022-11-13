@@ -1,5 +1,6 @@
 package com.futurecollars.lesson2.task3;
 
+import com.futurecollars.lesson2.task3.Calculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.futurecollars.lesson2.task3.task4;
+package com.futurecollars.lesson2.task4;
 
 public class Age {
 

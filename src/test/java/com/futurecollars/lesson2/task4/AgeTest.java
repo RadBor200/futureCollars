@@ -1,7 +1,6 @@
-package com.futurecollars.lesson2.task3.task4;
+package com.futurecollars.lesson2.task4;
 
 
-import com.futurecollars.lesson2.task3.task4.Age;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
