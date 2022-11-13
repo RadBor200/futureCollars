@@ -13,7 +13,7 @@ class AgeTest {
   }
 
   @Test
-  void shouldReturnAbove18WhenAgeIs22() {
+  void shouldReturnAbove18WhenAgeIs25() {
     String verification = Age.verifyAge(25);
     Assertions.assertEquals("Your age is 18 or above 18.", verification);
   }
